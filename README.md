@@ -1,1 +1,1 @@
-# DigitalGovernmentPractice
+# parsing vk social network communities
