@@ -41,7 +41,7 @@ public class FirstTest extends BaseTest {
         ArrayList<String> list = new ArrayList<>();
 
         try {
-            FileInputStream fis = new FileInputStream("D:\\Practic1\\gospabl.xlsx");
+            FileInputStream fis = new FileInputStream("D:\\DigitalGovernmentPractice\\gospabl.xlsx");
             XSSFWorkbook wb = new XSSFWorkbook(fis);
             XSSFSheet sheet = wb.getSheetAt(0);
             for(Row row : sheet) {
@@ -170,7 +170,7 @@ public class FirstTest extends BaseTest {
         }
 
         try {
-            FileOutputStream fileOut = new FileOutputStream("D:\\Practic1\\endFile\\end2.xlsx");
+            FileOutputStream fileOut = new FileOutputStream("D:\\DigitalGovernmentPractice\\endFile\\end2.xlsx");
             workbook.write(fileOut);
             fileOut.close();
             System.out.println("Файл создан");
